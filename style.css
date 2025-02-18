@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#trailer{
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    bottom: 0;
+    right: 0;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: fantasy;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+    margin-top: 20px;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    width: 200px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: goldenrod;
+    color: black;
+}
